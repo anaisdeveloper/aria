@@ -1,0 +1,803 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+
+
+}
+
+@font-face {
+	font-family: 'Selfie_Black';
+	src: url(font/Selfie_Black.otf);
+}
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url(font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Cookie-Regular';
+	src:  url(font/Cookie-Regular.ttf);
+}
+::selection {
+  background-color: lime;
+}
+
+.dispFlexRow {
+	
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+.dispFlexColumn {
+	
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+div p {
+	overflow-y: scroll;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: OpenSans-Bold, sans-serif;
+	color: rgb(63, 151, 39);
+
+}
+
+
+
+.logoContainer{
+	/*border: 2px solid #00F;*/
+	width: 8em;
+	height: 4em;
+
+	
+}
+
+.logo{
+	/*border: 2px solid #F00;*/
+	width: 40%;
+	height: 3.5em;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.ariaTitle{
+	/*border: 2px solid #FFF;*/
+	height: 5em;
+	width: 40%;
+	
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+#aria {
+	font-size: 1em;
+	color: #FFF;
+	font-family: OpenSans-Bold, sans-serif;
+	text-shadow: #000 0 0 .2em;
+}
+#innovent{
+	font-size: 0.7em;
+	color: #FFF;
+	font-family: OpenSans-Regular, sans-serif;
+	text-shadow: #000 0 0 .2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*...................................................................................*/
+/* End  partie déclaration*/
+/*...................................................................................*/
+
+/*...................................................................................*/
+/* Begin partie 1 logo + barreMenu + gros titre
+/*...................................................................................*/
+.block_header {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 50em;
+
+}
+.container_header {
+	/*border: 3px solid #00f;*/
+	width: 100%;
+	height: 100%;
+	flex-flow: column;	
+	background-image: url(img/champBle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container_menu {
+	/*border: 5px solid #ff0;*/
+	width: 100%;
+	height: 10%;
+	
+
+}
+.header_logo {
+	/*border: 3px solid #fff;*/
+	width: 30%;
+	height: 100%;
+	justify-content: flex-start;
+	margin-left: 5%;
+}
+
+.menu {
+	/*border: 3px solid #0ff;*/
+	width: 70%;
+	height: 100%;
+	
+	justify-content: flex-end;
+	
+
+}
+.header_centent {
+	/*border: 3px solid #0f0;*/
+	width: 100%;
+	height: 85%;
+	
+	flex-flow: column;
+	
+}
+.cols {
+	/*border: 3px solid #fff;*/
+	width: 19%;
+	height: 100%;
+	
+}
+.cols > a {
+	font-family: OpenSans-Regular, sans-serif;
+	font-size: 1.2em;
+	
+	color: #fff;
+	text-decoration: none;
+}
+.cols > a:hover {
+	color: rgba(31, 47, 40, 1);
+}
+
+.header_centent  #div_h1  h1, #div_p {
+	color: #fff;
+	
+}
+
+.div_title{
+	/*border: 3px solid #fff;*/
+	width: 100%;
+	height: 100%
+}
+
+
+.div_h1_svg, .div_h2_svg {
+	/*border: 3px solid #ff0;*/
+	width: 100%;
+	height: 100%;
+
+} 
+
+.txtCenter {
+	/*border: 3px solid #f0f;*/
+	font-family: OpenSans-Bold, sans-serif;
+	font-style: italic;
+	font-size: 7vw;
+	font-weight: bold;
+	fill: #fff;
+	stroke: #000;
+	
+	
+}
+
+
+
+#div_p {
+	/*border: 3px solid #0ff;*/
+	width: 40%;
+	height: 30%;
+	font-size: 1.5em;
+	
+}
+#div_p > p {
+	text-align: center;
+}
+
+
+
+.line{
+	border-left: 0.3em solid #FFF;
+	width: 0em;
+	height: 30%;
+	margin-top: -5em;
+}
+
+/*...................................................................................*/
+/* End  partie 1 logo + barreMenu + gros titre*/
+/*...................................................................................*/
+
+
+/*...................................................................................*/
+/* begin partie about*/
+/*...................................................................................*/
+
+ 
+.block_presentation, .block_prestation {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 50em;
+	justify-content: space-around;
+}
+.container_presentation {
+	/*border: 3px solid #FF0;*/
+	width: 80%;
+	height: 35%;
+}
+
+
+.about {
+	/*border: 3px solid #f00;*/
+	width: 90%;
+	height: 20%;
+	justify-content: center;
+}
+#aboutP {
+	font-size: 1.7em;
+	font-family: OpenSans-Bold, sans-serif;
+	color: rgb(63, 151, 39);
+}
+.col1_presentation_parag {
+	/*border: 3px solid #f00;*/
+	width: 90%;
+	height: 70%;
+	text-align: center;
+}
+.biogaz {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 50%;
+}
+.biogazParag, .biogazImage {
+	/*border: 3px solid #F00;*/
+	width: 30%;
+	height: 100%;
+	justify-content: space-around;
+}
+.biogazParag{
+	background-color: rgb(39, 86, 29);
+}
+.medailleContainer, .numberOneContainer {
+	/*border: 3px solid #F00;*/
+	width: 80%;
+	height: 50%;
+}
+.medaille {
+	/*border: 3px solid #FF0;*/
+	width: 5em;
+	height: 5em;
+	background-image: url(img/med.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.numberOneContainer {
+	align-items: flex-start;
+	font-size: 2em;
+	color: #FFF;
+	text-shadow: #000 0 0 .2em;
+}
+.biogazImage {
+	/*border: 3px solid #FF0;*/
+	width: 70%;
+	height: 100%;
+	background-image: url(img/vache.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*...................................................................................*/
+/*end partie about*/
+/*...................................................................................*/
+
+/*...................................................................................*/
+/*begin partie technologies*/
+/*...................................................................................*/
+
+.technologiesBloc {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 70em;
+	justify-content: space-around;
+}
+.container_technologies_parag{
+/*	border: 3px solid #FF0;*/
+	width: 80%;
+	height: 15%;
+}
+.Bloc_technologies_img {
+	/*border: 3px solid #00F;*/
+	width: 100%;
+	height: 85%;
+}
+.container_technologies_img {
+	/*border: 3px solid #F00;*/
+	width: 30%;
+	height: 95%;
+}
+
+.articleTechnologiesOne, .articleTechnologiesTwo,
+.articleTechnologiesThree {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 100%;
+}
+.technologiesOneImg, .technologiesTwoImg,
+.technologiesThreeImg {
+	/*border: 3px solid #F00;*/
+	width: 100%;
+	height: 50%;
+	
+}
+
+.technologiesOneImg  {
+	
+	background-image: url(img/tracteur.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.technologiesTwoImg  {
+	
+	background-image: url(img/champ1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.technologiesThreeImg  {
+	/*border: 3px solid #F00;*/
+	background-image: url(img/champ2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.technologiesOneParag,
+.technologiesTwoParag,
+.technologiesThreeParag {
+	/*border: 3px solid #F00;*/
+	width: 100%;
+	height: 50%;
+}
+.technologiesOneParag  p,
+.technologiesTwoParag  p,
+.technologiesThreeParag  p{
+	text-align: center;
+	font-size: 1em;
+}
+/*...................................................................................*/
+/*end partie technologies*/
+/*...................................................................................*/
+
+/*...................................................................................*/
+/*Begin partie prestaions*/
+/*...................................................................................*/
+
+.block_prestations {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 90em;
+	justify-content: space-around;
+
+}
+.biogazTwo {
+	/*border: 3px solid #00F;*/
+	width: 100%;
+	height: 35%;
+}
+
+.biogazImageTwo {
+	/*border: 3px solid #f00;*/
+	width: 70%;
+	height: 100%;
+	background-image: url(img/ble.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.prestationsTitle {
+	/*border: 3px solid #f00;*/
+	width: 90%;
+	height: 7%;
+	justify-content: center;
+	
+	
+}
+
+
+.nosPrestations{
+	/*border: 3px solid #0F0;*/
+	width: 90%;
+	height: 47%;
+	
+}
+
+.diagnostic, .aps, .apd, .assistance{
+	/*border: 3px solid #00F;*/
+	width: 25%;
+	height: 100%;
+	
+}
+.icons {
+	/*border: 3px solid #f00;*/
+		width: 100%;
+		height: 40%;
+	}
+.titles {
+	/* border: 3px solid #f00;*/
+		width: 70%;
+		height: 30%;
+		text-align: center;
+		font-size: 1.5em;
+
+	}
+.parag {
+	/*border: 3px solid #f00;*/
+		width: 100%;
+		height: 30%;
+		text-align: center;
+	}
+
+/*...................................................................................*/
+/*end partie presttaions*/
+/*...................................................................................*/
+
+/*...................................................................................*/
+/*Begin partie contact*/
+
+.bloc_contact {
+	/*border: 3px solid #000;*/
+	width: 100%;
+	height: 70em;
+	justify-content: space-around;
+	background-color: rgb(39, 86, 29);
+
+}
+.containerContactTitle{
+	/*border: 3px solid #FFF;*/
+	width: 90%;
+	height: 25%;
+}
+.containerContactTitle h2{
+	color: #FFF;
+	font-size: 2.9em;
+}
+.containerContactTitle p{
+	color: #FFF;
+	font-size: 1.5em;
+	text-align: center;
+}
+.containerContactform{
+	/*border: 3px solid #00F;*/
+	width: 95%;
+	height: 85%;
+}
+.continerForm{
+	/*border: 3px solid #F00;*/
+	width: 60%;
+	height: 95%;
+	justify-content: space-around;
+}
+
+
+
+.form{
+	/*border: 2px solid #0f0;*/
+	width: 100%;
+  height: 95%;
+  justify-content: space-around;
+}
+
+.inputBox {
+	/*border: 2px solid #00f;*/
+	width: 90%;
+  height: 7%;
+  position: relative;
+  flex-flow: row wrap;
+	
+}
+
+.inputBox input[type=text] {
+	/*border: 2px solid #FF0;*/
+	width: 90%;
+	height: 80%;
+	padding: 10px 0; 
+	font-size: 1.5em;
+	color: #000;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #fff;
+	background: #FFF;
+	outline: none;
+}
+.message {
+	/*border: 2px solid #00F;*/
+	width: 90%;
+	height: 30%;
+}
+.inputBox input[name="message"] {
+	/*border: 2px solid #00F;*/
+	height: 100%;
+	width: 90%;
+	resize: none;
+}
+textarea {
+	/*border: 2px solid #F00;*/
+	width: 90%;
+	height: 100%;
+	font-size: 1.2em;
+}
+
+.inputBox label[for="fname"], .inputBox label[for="email"],
+.inputBox label[for="message"] {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	padding: 10px 0; 
+	font-size: 1.2em;
+	color: #fff;
+	pointer-events:none;
+	/*transition: .5s;*/
+	animation: translate 0.85s ease-in-out;
+  	animation-delay: .5s;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;
+}
+@keyframes translate {
+	to { transform:
+    translateX(30px)
+    translateY(-35px)
+    translateZ(0px);
+    color: #FFF;
+	font-size: 1.5em;
+     }
+    
+}
+.inputBox label {
+	margin-top: -1em;
+}
+.btn {
+	/*border: 2px solid #0F0;*/
+	width: 80%;
+	height: 7%;
+}
+.form button[type=button]{
+	/*border: 2px solid #0F0;*/
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	color: #FFF;
+	background: rgb(27, 57, 17);
+	border-radius: 5px;
+	font-size: 1.5em;
+	font-family: 'OpenSans-Regular';
+	
+}
+
+
+.adress{
+	/*border: 3px solid #FFF;*/
+	width: 40%;
+	height: 85%;
+	justify-content: flex-start;
+	
+}
+.adress h3{
+	color: #fff;
+	font-size: 1.7em;
+}
+.adress > p {
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.lineAdress{
+	border-top: 0.3em solid #FFF;
+	width: 80%;
+	height: 0%;
+}
+/*...................................................................................*/
+/*end partie contac*/
+/*...................................................................................*/
+
+/*...................................................................................*/
+/*Begin partie modal*/
+
+/* The Modal (background) */
+.modal {
+
+	/*border: 2px solid #FF0;*/
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	/*border: 1px solid #888;*/
+  background-color: #fefefe;
+  margin: auto;
+  width: 50%;
+  height: 70%;
+  font-size: 1.9em;
+  color: background-color: rgb(39, 86, 29);
+ 
+}
+.container_photo{
+	/*border: 4px solid #000;*/
+	width: 100%;
+  height: 5em;
+  
+}
+.photo{
+	/*border: 4px solid #F00;*/
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	background-image: url(img/photoCv.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -5em;
+}
+.container_close{
+	/*border: 4px solid #00F;*/
+	width: 100%;
+  height: 1.1em;
+  
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.container_profil {
+	/*border: 4px solid #0F0;*/
+	width: 100%;
+  height: 50%;
+  justify-content: space-around;
+}
+.profil {
+	border-top: .3em solid #efefef;
+	width: 100%;
+  height: 100%;
+  
+}
+
+.profil_link{
+	/*border: 4px solid #FF0;*/
+	width: 70%;
+	height: 60%;
+
+}
+.container_monLogo{
+	border-bottom: .2em solid #aaa;
+	width: 100%;
+	height: 3em;
+	
+	
+}
+.monLogo {
+	
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	background-image: url(img/monLogo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.thx{
+	/*border: 4px solid #FF0;*/
+	width: 100%;
+  height: 20%;
+  color: rgba(0, 0, 0, .7);
+ 	text-align: center;
+  font-size: .7em;
+  font-weight: bold;
+}
+.container_hello {
+	/*border: 4px solid #000;*/
+	width: 100%;
+  height: 9%;
+ 
+}
+
+/* The Close Button */
+.close {
+	/*border: 4px solid #000;*/
+	width: 1em;
+  height: 1em;
+  
+  color: #aaaaaa;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.fullName, .country,
+.job{
+	/*border: 2px solid #00F;*/
+	width: 100%;
+	height: 33%;
+	font-size: .7em;
+	justify-content: flex-start;
+	
+}
+ .linkmonCv{
+	/*border: 2px solid #0F0;*/
+	width: 100%;
+	height: 30%;
+	justify-content:flex-end;
+}
+.linkmonCv button{
+	border: .3em solid #efefef;
+	width: 35%;
+	height: 80%;
+	outline: none;
+	color: rgb(0, 0, 0);
+	background: #FFF;
+	border-radius: 1em;
+	font-size: 0.7em;
+	font-family: 'OpenSans-Regular';
+	margin-right: 1em;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	
+}
+/*...................................................................................*/
+/*Begin partie google maps*/
+/*...................................................................................*/
+ 
+.map {
+	/*border: 3px solid #f00;*/
+	 width: 100%;
+  height: 40em;
+  
+ 
+  
+}
+/*...................................................................................*/
+/*end partie map*/
+/*...................................................................................*/
+footer {
+	
+	 width: 100%;
+  height: 7vh;
+  color: #FFF;
+	font-size: .7em;
+  background-color: rgb(39, 86, 29);
+}
+
